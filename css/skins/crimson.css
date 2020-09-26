@@ -1,0 +1,15 @@
+.section-title .title::before,
+.header,
+.home-section,
+.features-section .features-item:hover {
+  background-color: #d70d25;
+}
+
+.mybtn1,
+.mybtn1:hover,
+.section-title .title,
+.about-section .about-content ul li i,
+.features-section .features-item .icon i,
+.products-section .product-content .product-price .new-price {
+  color: #d70d25;
+}
