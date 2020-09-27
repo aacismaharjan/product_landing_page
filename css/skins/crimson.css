@@ -8,7 +8,8 @@
 .testinomial-section .owl-carousel .owl-nav button.owl-next:hover,
 .testinomial-section .owl-carousel .owl-nav button.owl-prev:hover,
 .newsletter-section::before,
-.mybtn2 {
+.mybtn2,
+.footer {
   background-color: #d70d25;
 }
 
@@ -23,7 +24,8 @@
 .testinomial-section .owl-carousel .owl-nav button.owl-prev,
 .faq-section .support-text a,
 .contact-section .contact-item .icon i,
-.contact-section .contact-item h5 {
+.contact-section .contact-item h5,
+.footer .footer-social-links a:hover i {
   color: #d70d25;
 }
 
