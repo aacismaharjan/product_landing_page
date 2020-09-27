@@ -15,8 +15,53 @@
     <link rel="stylesheet" href="css/responsive.css" />
     <!-- Default skin -->
     <link rel="stylesheet" href="css/skins/crimson.css" />
+
+    <!-- Live Style Switcher - Demo Only -->
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      href="css/skins/crimson.css"
+      title="crimson"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      href="css/skins/blue.css"
+      title="blue"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      href="css/skins/indigo.css"
+      title="indigo"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      href="css/skins/aqua.css"
+      title="aqua"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      href="css/skins/black.css"
+      title="black"
+      disabled
+    />
+
+    <link rel="stylesheet" href="css/styleSwitcher.css" />
   </head>
   <body>
+    <!-- Preloader Start -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- Preloader End -->
+    
     <!-- Header Section Start -->
     <header class="header fixed-top">
       <div class="container">
@@ -787,6 +832,42 @@
     </footer>
     <!-- Footer Section End -->
 
+    <!-- Live Style Switcher - Demo Only Start -->
+    <div class="style-switcher">
+      <div class="toggle-style-switcher">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <h5>Style Switcher</h5>
+      <ul class="list-unstyled">
+        <li
+          title="crimson"
+          style="background-color: #d70d25"
+          onclick="setActiveStyle('crimson')"
+        ></li>
+        <li
+          title="blue"
+          style="background-color: #4948d4"
+          onclick="setActiveStyle('blue')"
+        ></li>
+        <li
+          title="indigo"
+          style="background-color: #6400ae"
+          onclick="setActiveStyle('indigo')"
+        ></li>
+        <li
+          title="aqua"
+          style="background-color: #05b3b6"
+          onclick="setActiveStyle('aqua')"
+        ></li>
+        <li
+          title="black"
+          style="background-color: #222222"
+          onclick="setActiveStyle('black')"
+        ></li>
+      </ul>
+    </div>
+    <!-- Live Style Switcher - Demo Only End -->
+
     <!-- Jquery -->
     <script src="js/jquery.min.js"></script>
     <!-- Popper -->
@@ -797,5 +878,8 @@
     <script src="js/owl.carousel.min.js"></script>
     <!-- main -->
     <script src="js/main.js"></script>
+
+    <!-- Live Style Switcher - Demo Only -->
+    <script src="js/styleSwitcher.js"></script>
   </body>
 </html>

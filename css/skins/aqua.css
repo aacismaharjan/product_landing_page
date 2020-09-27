@@ -13,7 +13,7 @@
 .header .navbar-light .navbar-toggler-icon,
 .header .navbar-light .navbar-toggler-icon::before,
 .header .navbar-light .navbar-toggler-icon::after {
-  background-color: #d70d25;
+  background-color: #05b3b6;
 }
 
 .mybtn1,
@@ -29,20 +29,20 @@
 .contact-section .contact-item .icon i,
 .contact-section .contact-item h5,
 .footer .footer-social-links a:hover i {
-  color: #d70d25;
+  color: #05b3b6;
 }
 
 .testinomial-section .client-info img,
 .contact-section .contact-form .form-control:focus {
-  border-color: #d70d25;
+  border-color: #05b3b6;
 }
 
 .preloader .loader {
-  border-right: 5px solid #d70d25;
+  border-right: 5px solid #05b3b6;
 }
 
 @media (max-width: 991px) {
   .header .navbar #collapsibleNavbar .nav-item .nav-link {
-    color: #d70d25;
+    color: #05b3b6;
   }
 }
