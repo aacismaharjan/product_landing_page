@@ -6,7 +6,9 @@
 .products-section .owl-carousel .owl-nav button.owl-prev,
 .testinomial-section::before,
 .testinomial-section .owl-carousel .owl-nav button.owl-next:hover,
-.testinomial-section .owl-carousel .owl-nav button.owl-prev:hover {
+.testinomial-section .owl-carousel .owl-nav button.owl-prev:hover,
+.newsletter-section::before,
+.mybtn2 {
   background-color: #d70d25;
 }
 
@@ -18,7 +20,8 @@
 .products-section .product-content .product-price .new-price,
 .testinomial-section .client-info h5,
 .testinomial-section .owl-carousel .owl-nav button.owl-next,
-.testinomial-section .owl-carousel .owl-nav button.owl-prev {
+.testinomial-section .owl-carousel .owl-nav button.owl-prev,
+.faq-section .support-text a {
   color: #d70d25;
 }
 

@@ -8,6 +8,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+input {
+  font-family: 'Montserrat', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -41,8 +45,8 @@ a {
   margin-right: -4px;
 }
 
-.mybtn1 {
-  background-color: #ffffff;
+.mybtn1,
+.mybtn2 {
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -55,11 +59,25 @@ a {
   z-index: 1;
 }
 
-.mybtn1:focus {
+.mybtn1 {
+  background-color: #ffffff;
+}
+
+.mybtn2 {
+  color: #ffffff;
+}
+
+.mybtn2:hover {
+  color: #ffffff;
+}
+
+.mybtn1:focus,
+.mybtn2:focus {
   box-shadow: none;
 }
 
-.mybtn1::before {
+.mybtn1::before,
+.mybtn2::before {
   content: '';
   position: absolute;
   left: 0;
@@ -71,7 +89,8 @@ a {
   transition: all 0.3s ease;
 }
 
-.mybtn1:hover::before {
+.mybtn1:hover::before,
+.mybtn2:hover::before {
   width: 100%;
 }
 
@@ -650,4 +669,96 @@ a {
   display: block;
   font-weight: 500;
   overflow: hidden;
+}
+
+/* Faq Section */
+.faq-section {
+  padding: 80px 0 80px;
+}
+
+.faq-section .faq-item {
+  margin-bottom: 40px;
+}
+
+.faq-section .faq-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #222222;
+  margin: 0 0 10px;
+}
+
+.faq-section .faq-item p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #555555;
+  font-weight: 400;
+  margin: 0;
+}
+
+.faq-section .support-text {
+  margin: 15px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222222;
+  line-height: 26px;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+  background-image: url('../img/bg-02.jpg');
+  padding: 80px 0 80px;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.newsletter-section::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.newsletter-section .section-title .title,
+.newsletter-section .section-title .subtitle {
+  color: #ffffff;
+}
+
+.newsletter-section .section-title .title::before {
+  background-color: #ffffff;
+}
+
+.newsletter-section .newsletter-form .form-group {
+  margin-bottom: 0;
+}
+
+.newsletter-section .newsletter-form .form-control {
+  height: 60px;
+  border-radius: 60px;
+  padding: 0 185px 0 30px;
+  outline: none;
+  border: none;
+  color: #555555;
+  font-weight: 400;
+}
+
+.newsletter-section .newsletter-form .form-control:focus {
+  box-shadow: none;
+}
+
+.newsletter-section .newsletter-form {
+  position: relative;
+}
+
+.newsletter-section .newsletter-form .btn {
+  height: 48px;
+  position: absolute;
+  top: 6px;
+  right: 6px;
 }
