@@ -3,7 +3,10 @@
 .home-section,
 .features-section .features-item:hover,
 .products-section .owl-carousel .owl-nav button.owl-next,
-.products-section .owl-carousel .owl-nav button.owl-prev {
+.products-section .owl-carousel .owl-nav button.owl-prev,
+.testinomial-section::before,
+.testinomial-section .owl-carousel .owl-nav button.owl-next:hover,
+.testinomial-section .owl-carousel .owl-nav button.owl-prev:hover {
   background-color: #d70d25;
 }
 
@@ -12,6 +15,13 @@
 .section-title .title,
 .about-section .about-content ul li i,
 .features-section .features-item .icon i,
-.products-section .product-content .product-price .new-price {
+.products-section .product-content .product-price .new-price,
+.testinomial-section .client-info h5,
+.testinomial-section .owl-carousel .owl-nav button.owl-next,
+.testinomial-section .owl-carousel .owl-nav button.owl-prev {
   color: #d70d25;
+}
+
+.testinomial-section .client-info img {
+  border-color: #d70d25;
 }
