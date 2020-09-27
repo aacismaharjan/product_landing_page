@@ -21,10 +21,13 @@
 .testinomial-section .client-info h5,
 .testinomial-section .owl-carousel .owl-nav button.owl-next,
 .testinomial-section .owl-carousel .owl-nav button.owl-prev,
-.faq-section .support-text a {
+.faq-section .support-text a,
+.contact-section .contact-item .icon i,
+.contact-section .contact-item h5 {
   color: #d70d25;
 }
 
-.testinomial-section .client-info img {
+.testinomial-section .client-info img,
+.contact-section .contact-form .form-control:focus {
   border-color: #d70d25;
 }
