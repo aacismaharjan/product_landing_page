@@ -9,7 +9,10 @@
 .testinomial-section .owl-carousel .owl-nav button.owl-prev:hover,
 .newsletter-section::before,
 .mybtn2,
-.footer {
+.footer,
+.header .navbar-light .navbar-toggler-icon,
+.header .navbar-light .navbar-toggler-icon::before,
+.header .navbar-light .navbar-toggler-icon::after {
   background-color: #d70d25;
 }
 
@@ -32,4 +35,10 @@
 .testinomial-section .client-info img,
 .contact-section .contact-form .form-control:focus {
   border-color: #d70d25;
+}
+
+@media (max-width: 991px) {
+  .header .navbar #collapsibleNavbar .nav-item .nav-link {
+    color: #d70d25;
+  }
 }
